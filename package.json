@@ -1,0 +1,50 @@
+{
+    "name": "npbot",
+    "version": "2.0.0",
+    "description": "Bot da Noodles Picante",
+    "private": true,
+    "license": "GPL-3.0",
+    "author": {
+      "name": "PiterOfc",
+      "email": "phenriquenbphnb@gmail.com"
+    },
+    "bugs": {
+      "url": "https://github.com/noodlespicante/npbot/issues"
+    },
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon .",
+      "lint": "eslint ."
+    },
+    "engines": {
+      "node": ">=22.12.0"
+    },
+    "devEngines": {
+      "runtime": {
+        "name": "node",
+        "onFail": "error"
+      },
+      "packageManager": {
+        "name": "npm",
+        "onFail": "error"
+      }
+    },
+    "dependencies": {
+      "@discordjs/voice": "^0.16.0",
+      "desacentuador": "^1.0.0",
+      "discord-api-types": "^0.37.56",
+      "discord-tts": "^1.2.2",
+      "discord.js": "^14.13.0",
+      "dotenv": "^16.3.1",
+      "erlpack": "github:discord/erlpack",
+      "eslint": "^8.52.0",
+      "parse-ms": "^2.1.0",
+      "pg": "^8.11.0",
+      "pg-hstore": "^2.3.4",
+      "postgres": "^3.3.5",
+      "pretty-ms": "^7.0.1",
+      "sequelize": "^6.32.0",
+      "sequelize-auto": "^0.8.8"
+    }
+  }
+  
